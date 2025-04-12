@@ -5,7 +5,6 @@ import gridfs
 import os
 import io
 from werkzeug.utils import secure_filename
-from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__)
 
